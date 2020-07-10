@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>About me</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="portfolio,product design,ux,ui,user experience, software development, software engineering">
+  <meta name="description" content="Product designer based in Vancouver, BC">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/about.css">
+  <link rel="icon" href="./images/tifficon.png">
+</head>
+<body>
+
+  <!-- Navbar-->
+  <header>
+    <div class="tiffanyWu">
+      <a href="./index.html">
+        <img src="./images/darkicon.png" alt="darkicon">
+        <div class="overlay">
+          <img class="top" src="./images/tifficon.png" alt="tifficon">
+        </div>
+      </a>
+    </div>
+    <div class="menu-toggle">
+      <i class="fa fa-bars"></i>
+      <i class="fa fa-times"></i>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Work</a></li>
+        <li><a href="./about.html"  class="active">About</a></li>
+        <li><a href="./sandbox.html">Sandbox</a></li>
+      </ul>
+    </nav>
+    <div class = "clearfix"></div>
+  </header>
+
+
+<!-- Description-->
+<div class="about">
+    <h1>A little about me.</h1>
+
+    <div class="photo">
+      <img src="./images/me.jpg"  alt="Photo of Me" width="30%">
+    </div>
+
+    <div class="description">
+      <p>
+        Hi there! I'm Tiffany, an aspiring product designer currently studying Computer Science student at the
+        University of British Columbia. Although I still enjoy coding when the occasion arises, I chose to pursue design
+        after realizing that I was more interested in why we build software and for whom.
+      </p>
+      <p>
+        What really drew me in to design was being able to stand at the meeting point of technology and the humanities
+        (such as art, typography, and psychology). I love how I get to be curious all the time when working on projects;
+        whether it be interviewing users, identifying paint points, or analyzing user data, there's always something new
+        to learn. My goal is to pursue projects that will improve the lives of everyday people -- be it through design work
+        or otherwise.
+      </p>
+      <p>
+        In my free time, I like to play volleyball, ultimate, and dance. I also love hanging out with friends, making food,
+        and coming up with my next creative project.
+      </p>
+      <p>
+        Shoot me <a href = "mailto: tiffanywu@alumni.ubc.ca">a message</a> if you'd like to chat!
+      </p>
+    </div>
+  </div>
+
+
+
+<!-- Footer -->
+<footer>
+    <p>© Coded with <i class="fa fa-heart"></i> by Tiffany Wu</p>
+  <div class="footerIcons">
+    <a href = "mailto: tiffanywu@alumni.ubc.ca"><i class="fa fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/tiffanywu-ubc/"><i class="fa fa-linkedin"></i></a>
+    <!-- <i class="fa fa-instagram"></i>
+    <i class="fa fa-dribbble"></i>
+    <i class="fa fa-behance"></i>
+    <i class="fa fa-medium"></i> -->
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+</script>
+<script>
+ $(document).ready(function(){
+  $('.menu-toggle').click(function(){
+      $('.menu-toggle').toggleClass('active')
+      $('nav').toggleClass('active')
+  })
+ })
+</script>
+
+</body>
+</html>
