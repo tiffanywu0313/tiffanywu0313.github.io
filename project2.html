@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Yelp Redesign</title>
+  <title>Route Explorer</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="portfolio,product design,ux,ui,user experience, software development, software engineering">
@@ -11,20 +11,31 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
   <link rel="stylesheet" type="text/css" href="./stylesheets/project.css">
-  <link rel="icon" href="./images/tifficon.png">
+  <link rel="icon" href="./images/icon.png">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180937229-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-180937229-1');
+  </script>  
 </head>
 <body>
 
+
   <!-- Navbar-->
   <header>
-    <div class="tiffanyWu">
+    <!-- <div class="tiffanyWu">
       <a href="./index.html">
         <img src="./images/darkicon.png" alt="darkicon">
         <div class="overlay">
           <img class="top" src="./images/tifficon.png" alt="tifficon">
         </div>
       </a>
-    </div>
+    </div> -->
     <div class="menu-toggle">
       <i class="fa fa-bars"></i>
       <i class="fa fa-times"></i>
@@ -42,131 +53,162 @@
 
 <!-- Description-->
 <div class="title">
-    <h1>Yelp Redesign</h1>
+    <h1>Route Explorer</h1>
     <p>
-      How might we redesign yelp for university students planning a group outing
-      where different people have constraints or planning a date to multiple locations?
+      RouteExplorer is a mobile app designed to help travellers and locals
+      who are avid walkers find walking routes in the city that they are interested in.
     </p>
 </div>
 
-
-        <div class="row">
-          <div class="column">
-            <br>
-            <br>
-            <p>Product:  &nbsp &nbsp &nbsp Website redesign</p>
-            <p>Team:  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Tiffany Wu, Wesley Yuen, Shirley Zeng,
-              <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Megha Singhania, Ruperto Torres</p>
-            <p>Role:  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp UX Research, UI Design, Report Writing</p>
-            <p>Tools: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Figma, Miro</p>
-            <p>Timeline:  &nbsp &nbsp September - November 2019</p>
-          </div>
-          <div class="column">
-            <div class="photo">
-              <img src="./images/Project 2.png"  alt="p2">
-            </div>
-          </div>
+    <div class="row">
+      <div class="column">
+        <br>
+        <br>
+        <br>
+        <p>Product:  &nbsp &nbsp &nbsp Mobile app design</p>
+        <p>Team:  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Tiffany Wu, Wesley Yuen,
+          <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Megha Singhania, Jiasheng Ni</p>
+        <p>Role:  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp UX Research, UI Design, Report Writing</p>
+        <p>Tools: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Figma</p>
+        <p>Timeline:  &nbsp &nbsp January - March 2020</p>
+      </div>
+      <div class="column">
+        <div class="photo">
+          <img src="./images/Project 1.png"  alt="p1">
         </div>
+      </div>
+    </div>
 
 <div class="description">
-     <div class="overview">
-        <h1><b>Background</b></h1>
-        <p>
-          This was a course project that I worked on in a team of 5 students.
-          We wanted to understand how people are using crowdsourced business recommendations on Yelp.
-        </p>
-        <br>
-        <br>
+ <div class="overview">
+    <h1><b>Problem</b></h1>
+    <p>
+      In this era of information explosion, despite the plethora of travel guides
+      such as blogs and travel websites, it is hard for travelers to find walking
+      routes where they can get a sense of the city while accounting for their interests.
+    </p>
+    <p>
+     With this in mind, we as a team of 4 students wanted to create a system that allowed
+     users to explore the city at their own pace without having to read through tons of travel
+     blogs and articles as travellers have limited time to spend in a city and don’t have extra
+     time to spend searching.
+    </p>
+    <br>
+    <br>
 
-        <h1><b>Pilot + Initial User Research</b></h1>
-        <p>
-          To learn more about the problem space, we wanted to conduct a user evaluation to
-          learn how users are utilizing the platform and what the main pain points were.
-          In our evaluation, we had a series of tasks that we would ask the user to complete
-          while we observed, then, we would follow up with a short semi-structured interview
-          asking the experience. After our pilot runs, we decided to print out the tasks list
-          we asked each user to complete as users had a hard time remembering the details.
-        </p>
-        <div class="photo">
-          <img src="./images/mini.png"  alt="mini">
-        </div>
-        <p>
-          After analyzing the data we collected in the form of an Affinity Diagram, we learned
-          that most users only use Yelp to look up recommendations of food when planning outings,
-          and that the Yelp navigation feature (map too small or doesn’t show directions under 4
-          blocks) and inconsistent filters were the major pain points.
-        </p>
-        <p>
-          Thus, we decided to further investigate how we can redesign Yelp so that it better
-          supports planning a group outing with two or more people.
-        </p>
-        <br>
-        <br>
-
-
-        <h1><b>Cognitive walkthrough on low-fi</b></h1>
-        <p>
-          Based on feedback from the user evaluation, we split up into 2 small teams to
-          brainstorm possible designs and came up with two conceptual designs. I was part
-          of the team that came up with a map based design (similar to that of google maps).
-          The other team’s design focused on tweaking components of the original design.
-        </p>
-        <p>Map based prototype</p>
-        <div style="padding:56.25% 0 0 0;position:relative;">
-          <iframe src="https://www.youtube.com/embed/zZqPL1x_g7c" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <p>List based prototype</p>
-        <div style="padding:56.25% 0 0 0;position:relative;">
-          <iframe src="https://www.youtube.com/embed/MXjJMKKZKiA" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <p>
-          We performed a cognitive walkthrough of both lo-fi prototypes and decided to merge good
-          ideas from both prototypes into one. Our mid-fi prototype was thus created after refining
-          our lo-fi prototypes.
-        </p>
-        <br>
-        <br>
-
-
-        <h1><b>Usability testing on mid-fi</b></h1>
-        <p>
-          Our Mid fi prototype was an interface that allowed users to create events where they can
-          add other users, these events would become filters that the user can use to search for
-          restaurants etc. This was also layered on top of a map based interface where the
-          location/distance to and from the restaurant was easy to see.
-        </p>
-          <div style="padding:56.25% 0 0 0;position:relative;">
-            <iframe src="https://www.youtube.com/embed/3_wMtuuDNFY" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <p>
-            To validate our solution, we conducted a user study with our mid-fi prototype. We made
-            the user do multiple tasks on the prototype while talking aloud their thinking process
-            and collected data from a follow up interview. Our results were quite positive as most
-            users thought the interface was very straightforward to use.
-          </p>
-          <div class="photo">
-            <img src="./images/usabilitytest.png"  alt="ut">
-          </div>
-          <br>
-          <br>
-
-
-          <h1><b>Reflection</b></h1>
-          <p>
-          Through this process, I’ve learned the importance of iteration on products as even when
-          you think you’ve got all the problems down, users or your teammates will give feedback
-          that will surprise you and is something you’ve never thought about. The challenging part
-          about solving this problem was the lack of time we had and the similarity of the Yelp
-          interface to other food/business recommendation related services. If we had more time,
-          we would definitely have tested our prototypes on more people and had a better grasp of
-          all possible pain points. If I were to do this again, I think I would try to have my
-          teammates practice conducting usability testing more so our tests sessions were more
-          consistent, as some teammates are better at probing during interviews than others etc.
-          </p>
-
-
+    <h1><b>General Process</b></h1>
+    <div class="photo">
+      <img src="./images/designprocess.png"  alt="process">
     </div>
+    <p>
+      1. Empathize: User interviews/surveys, seeking to understand <br>
+      2. Define: Pain points, prototyping personas, role objectives, challenges<br>
+      3. Ideate: Share/diverge/converge ideas, determine MVP<br>
+      4. Prototype: Mockups, simple storyboards, failing fast and iterating quickly<br>
+      5. Test: Understand problems, what works, what doesn't work, and iterate<br>
+    </p>
+    <br>
+    <br>
+
+
+    <h1><b>Field Study (Empathize + Define)</b></h1>
+    <p>
+      To learn more about the problem space we conducted a field study to understand how
+      people make walking exploration decisions. During the study, we would first ask
+      participants questions regarding their usual walking exploration in the city, then,
+      in the form of a contextual inquiry, we would ask the participants to decide on a
+      place to go on the spot. We would observe the participant’s behavior and ask questions
+      on the way to their destination.
+    </p>
+    <div class="photo">
+      <img src="./images/Fieldstudy.png"  alt="fieldstudy">
     </div>
+    <p>
+      From our field study, we learned that participants heavily relied on Google Maps and
+      photos to help them come to a decision. In addition, participants often change their
+      minds amidst their exploration and like to have options available to them when they
+      change their minds. We also noticed that they way people new to the city (which we
+      call travellers) and locals have different priorities in walking exploration. Thus,
+      we decided our target users would be travellers and created several personas.
+    </p>
+    <br>
+    <br>
+
+
+    <h1><b>Low-Fidelity Paper Prototype (Ideate + Prototype)</b></h1>
+    <p>
+      With these takeaways in mind, we designed a rough card deck view
+      prototype that emphasized these traits.
+    </p>
+    <div class="photo">
+      <img src="./images/route1.jpg"  alt="route">
+    </div>
+    <p>
+      However, after cognitive walkthroughs with several different users,
+      we noticed that the card interface confuses people in terms of navigation.
+    </p>
+    <p>
+      My team and I wondered if the card deck navigation was too novel and unfamiliar
+      to users and whether a normal list view design would perform better in terms of
+      explorability. Thus, we refined our card deck design and added signifiers that
+      would hopefully make the navigation easier for users; and created a list view prototype
+      so we could compare the two prototypes.
+    </p>
+    <div class="photo">
+      <img src="./images/card.jpg"  alt="route">
+    </div>
+    <div class="photo">
+      <img src="./images/list.jpg"  alt="route">
+    </div>
+      <br>
+      <br>
+
+
+      <h1><b>Experimenting with Medium-Fidelity Prototype (Test)</b></h1>
+      <p>
+        We conducted an experiment to see if one prototype better supports explorability than
+        the other. After performing an ANOVA analysis on the data we collected we were unable
+        to conclude which layout type better supports explorability, however, we were able
+        to identify key features that supported explorability in each of the prototypes.
+        The overview screen in the List view helps users get a sense of what to expect;
+        In the card view, participants enjoyed the larger images and less crowded texts.
+        For future iterations, we can potentially combine the two layouts and let users
+        choose dynamically between the List and a Card view.
+      </p>
+      <div class="photo">
+        <img src="./images/experiment.png"  alt="route">
+      </div>
+      <br>
+      <br>
+
+
+      <h1><b>Reflection</b></h1>
+      <p>
+        One of the most challenging parts of this project was during the field study where
+        we observed participants planning and going on a walk. It was hard to know which
+        questions to ask to better understand how users conduct the task even with our
+        pre-prepared list of questions.
+      </p>
+      <p>
+        It was also challenging to decide on success metrics during the evaluation process
+        to define which prototype performed better. This really came down to what we wanted
+        to prioritize in the user experience of our product, we eventually decided on
+        explorability. This reminded me to not judge an interface design before I understand
+        what problem it is trying to solve first.
+      </p>
+      <p>
+        The choice of Figma as a prototyping tool may not have been the best. Though Figma
+        offers an online collaborative environment, the limitations in the swiping interaction
+        made testing the prototype challenging. If I were to do this project the second time
+        I would choose to use a different prototyping tool for the card deck prototype.
+        As well, if we had more time and weren’t in the COVID pandemic, we would definitely
+        have tested our prototype on more participants and standardized our experiment process
+        as we had some sessions online and some in person.
+      </p>
+
+
+</div>
+</div>
 
 
 
