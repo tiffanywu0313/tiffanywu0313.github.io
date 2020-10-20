@@ -187,7 +187,9 @@ nav ul li a.active, nav ul li a:hover{
 
 .intro p{
   width: 55%;
-  margin: 30px auto 0 auto
+  margin: 30px auto 0 auto;
+  line-height: 1.5;
+
 }
 
 
