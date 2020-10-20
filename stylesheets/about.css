@@ -23,12 +23,12 @@
 
 .description a{
   text-decoration: none;
-  color: #019CB4;
+  color: #5A7C54;
 }
 
 .description a:hover {
   text-decoration: underline;;
-  color: #019CB4;
+  color: #5A7C54;
 }
 
 @media screen and (max-width: 1000px){

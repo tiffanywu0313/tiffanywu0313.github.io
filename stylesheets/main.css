@@ -10,7 +10,7 @@
 }
 
 html {
-  font-family: "Lato", sans-serif;
+  font-family: "proxmia nova", sans-serif;
   font-weight: 100;
 }
 
@@ -18,7 +18,7 @@ header {
   position: relative;
   max-width: 1200px;
   margin: 20px auto;
-  padding: 10px;
+  padding: 20px;
   background: #ffffff;
   box-sizing: border-box;
   box-shadow: 0 0 0 rgba(0,0,0);
@@ -37,6 +37,12 @@ h1 {
 
 h2 {
   font-size:35px;
+  font-weight: 400;
+  color: #17191A;
+}
+
+h3 {
+  font-size:25px;
   font-weight: 400;
   color: #17191A;
 }
@@ -83,7 +89,7 @@ nav ul li a {
   color: black;
 }
 nav ul li a.active, nav ul li a:hover{
-  color: #019CB4;
+  color: #5A7C54;
 }
 
 .menu-toggle i{
@@ -91,7 +97,7 @@ nav ul li a.active, nav ul li a:hover{
   display: none;
 }
 .menu-toggle i:hover{
-  color: #019CB4;
+  color: #5A7C54;
 }
 
 @media screen and (max-width: 768px) {
@@ -506,5 +512,5 @@ footer p{
 }
 
 .footerIcons i:hover{
-  color: #019CB4;
+  color: #5A7C54;
 }
