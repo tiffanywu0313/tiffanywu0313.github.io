@@ -16,16 +16,18 @@ html {
 
 header {
   position: relative;
-  max-width: 1200px;
-  margin: 20px auto;
-  padding: 20px;
+  max-width: 1100px;
+  margin: 10px auto;
+  padding: 10px;
   background: #ffffff;
   box-sizing: border-box;
   box-shadow: 0 0 0 rgba(0,0,0);
 }
+/* change margin and padding for nav bar */
+
 
 body {
-  width: 75%;
+  width: 100%;
   margin: auto;
 }
 
@@ -57,7 +59,7 @@ p {
   color: #8f9ea5;
   font-weight: 100;
   margin-top: 10px;
-  font-size:20px;
+  font-size: 20px;
 }
 
 
@@ -144,14 +146,25 @@ nav ul li a.active, nav ul li a:hover{
   flex:1;
 }
 
-.tiffanyWu img {
+.tiffanyWu a {
+  display: block;
+  /* margin: 10px 0; */
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.tiffanyWu a:hover {
+  opacity: 0.5;
+}
+
+/* .tiffanyWu img {
   display: inline-block;
   width: 70px;
 }
 
 .tiffanyWu:hover img{
   opacity: 0.1;
-}
+} */
 
 .overlay{
    position: absolute;
@@ -186,14 +199,17 @@ nav ul li a.active, nav ul li a:hover{
 }
 
 .intro p{
-  width: 55%;
+  width: 60%;
   margin: 30px auto 0 auto;
   line-height: 1.5;
-
 }
 
 
 /*-------- Tiles----------*/
+  .projects {
+    width: 75%;
+    margin: auto;
+  }
 
 	.tiles {
 		display: -moz-flex;
@@ -217,6 +233,7 @@ nav ul li a.active, nav ul li a:hover{
 			width: calc(50% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
 		}
+    /* //change to 100 for only one project on row */
 
 			.tiles article > .image {
 				-moz-transition: -moz-transform 0.5s ease;
