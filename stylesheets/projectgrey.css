@@ -34,12 +34,12 @@
 
 .description a{
   text-decoration: none;
-  color: #89C7D1;
+  color: #CFDFE1;
 }
 
 .description a:hover {
   text-decoration: underline;;
-  color: #89C7D1;
+  color: #CFDFE1;
 }
 
 .description p{
@@ -58,7 +58,7 @@
 
 .description h5{
   width:100%;
-  color: #89C7D1;
+  color: #CFDFE1;
 }
 
 .overview {
@@ -75,7 +75,7 @@
 }
 
 .researchq{
-  background-color: #89C7D1;
+  background-color: #CFDFE1;
 }
 
 .researchtext {
