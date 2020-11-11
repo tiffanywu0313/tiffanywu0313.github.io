@@ -22,12 +22,12 @@
 }
 
 .description a{
-  text-decoration: none;
+  text-decoration: underline;
   color: #5A7C54;
 }
 
 .description a:hover {
-  text-decoration: underline;;
+  text-decoration: none;;
   color: #5A7C54;
 }
 

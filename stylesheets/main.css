@@ -92,6 +92,7 @@ nav ul li a {
 }
 nav ul li a.active, nav ul li a:hover{
   color: #5A7C54;
+  text-decoration: underline;
 }
 
 .menu-toggle i{
