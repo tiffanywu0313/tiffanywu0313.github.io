@@ -15,6 +15,7 @@ html {
 }
 
 header {
+  width:64%;
   position: relative;
   max-width: 1100px;
   margin: 10px auto;
@@ -25,14 +26,13 @@ header {
 }
 /* change margin and padding for nav bar */
 
-
 body {
   width: 100%;
   margin: auto;
 }
 
 h1 {
-  font-size:40px;
+  font-size: 36px;
   font-weight: 400;
   color: #17191A;
 }
@@ -52,7 +52,7 @@ h3 {
 h5 {
   font-size: 20px;
   margin-top: 10px;
-  color: #17191A;
+  color: #5E5C5C;
 }
 
 h6 {
@@ -62,10 +62,21 @@ h6 {
 }
 
 p {
-  color: #8f9ea5;
+  color: #5E5C5C;
   font-weight: 100;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: #5A7C54;
+}
+
+a:hover {
+  text-decoration: none;;
+  color: #5A7C54;
 }
 
 
@@ -88,17 +99,18 @@ nav ul{
 }
 nav ul li{
   list-style: none;
+  color: #bebebe;
 }
 nav ul li a {
   display: block;
   margin: 10px 0;
   padding: 10px 20px;
   text-decoration: none;
-  color: black;
+  color: #bebebe;
 }
 nav ul li a.active, nav ul li a:hover{
   color: #5A7C54;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .menu-toggle i{
@@ -144,6 +156,9 @@ nav ul li a.active, nav ul li a:hover{
     display: block;
     text-align: center;
   }
+  header {
+    width: 90%;
+  }
 }
 
 .tiffanyWu {
@@ -160,9 +175,9 @@ nav ul li a.active, nav ul li a:hover{
   text-decoration: none;
 }
 
-.tiffanyWu a:hover {
-  opacity: 0.5;
-}
+/* .tiffanyWu a.active, a:hover {
+  color: #5A7C54;
+} */
 
 /* .tiffanyWu img {
   display: inline-block;
@@ -199,22 +214,27 @@ nav ul li a.active, nav ul li a:hover{
 }
 
 /*-------- Intro ----------*/
+.introcont {
+  width: 59%;
+  align-items: left;
+  margin: 80px auto 100px auto;
+}
 
 .intro {
-  margin: 150px 0 150px 0;
-  text-align: center;
+  text-align: left;
 }
 
 .intro p{
-  width: 60%;
-  margin: 30px auto 0 auto;
-  line-height: 1.5;
+  text-align: left;
+  width: 65%;
+  /* margin: 30px auto 0 auto; */
+  line-height: 2;
 }
 
 
 /*-------- Tiles----------*/
   .projects {
-    width: 75%;
+    width: 60%;
     margin: auto;
   }
 
@@ -237,7 +257,7 @@ nav ul li a.active, nav ul li a:hover{
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(50% - 2.5em);
+			width: calc(100% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
 		}
     /* //change to 100 for only one project on row */
@@ -397,16 +417,18 @@ nav ul li a.active, nav ul li a:hover{
 			} */
 
 			body:not(.is-touch) .tiles article:hover > .image {
-				-moz-transform: scale(1.05);
-				-webkit-transform: scale(1.05);
-				-ms-transform: scale(1.05);
-				transform: scale(1.05);
+				-moz-transform: scale(1.02);
+				-webkit-transform: scale(1.02);
+				-ms-transform: scale(1.02);
+				transform: scale(1.02);
 			}
+       /* hover effect how much bigger to transform */
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
-					background-color: #202020;
-					opacity: 0.85;
+					/* background-color: #ffffff;
+					opacity: 0.3; */
 				}
+        /* hover effect shade coler and opacity */
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
 					opacity: 0;
@@ -441,7 +463,7 @@ nav ul li a.active, nav ul li a:hover{
 			}
 
 				.tiles article {
-					width: calc(50% - 1.25em);
+					width: calc(100% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
@@ -454,7 +476,7 @@ nav ul li a.active, nav ul li a:hover{
 			}
 
 				.tiles article {
-					width: calc(50% - 2.5em);
+					width: calc(100% - 2.5em);
 					margin: 2.5em 0 0 2.5em;
 				}
 
@@ -467,7 +489,7 @@ nav ul li a.active, nav ul li a:hover{
 			}
 
 				.tiles article {
-					width: calc(50% - 1.25em);
+					width: calc(100% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
@@ -503,13 +525,19 @@ nav ul li a.active, nav ul li a:hover{
 
 
 @media screen and (max-width: 768px){
-.intro {
+/* .intro {
     width: 96%;
     margin: 30px auto 100px auto;
   }
   .tiles article{
     margin: 2%;
     width: 96%;
+  } */
+  .introcont {
+    width: 90%;
+  }
+  .projects {
+    width: 90%;
   }
 }
 
