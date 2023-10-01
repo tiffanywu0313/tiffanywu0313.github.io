@@ -1,0 +1,359 @@
+.title {
+  margin:20px 0 50px 0;
+  text-align: center;
+}
+
+.title p{
+  width: 50%;
+  margin: 30px auto 0 auto;
+  line-height: 1.5;
+}
+.title h1{
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 991px){
+  .title p{
+    width: 80%;
+  }
+}
+
+.photo img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   /* padding: 10px; */
+   /* border-radius: 4px; */
+}
+
+.description{
+  text-align: left;
+  width:100%;
+}
+
+.description a{
+  text-decoration: none;
+  color: #B5D1E1;
+}
+
+.description a:hover {
+  text-decoration: underline;
+  color: #B5D1E1;
+}
+
+.description p{
+  width:100%;
+  color: #5E5C5C;
+  line-height: 1.5;
+  margin-bottom: 1.2em ;
+  font-size: 16px;
+}
+
+.description h1{
+  font-size: 30px;
+  width:100%;
+  color: black;
+}
+
+.description h5{
+  width:100%;
+}
+
+.overview {
+  width:45%;
+  align-items: center;
+  margin: 30px auto 0 auto;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 991px){
+  .overview{
+    width: 85%;
+  }
+}
+
+.researchq{
+  background-color: #BCBED7;
+}
+
+.researchtext {
+  width:45%;
+  align-items: center;
+  margin: 30px auto 0 auto;
+  line-height: 2;
+}
+
+.researchtext p {
+  font-size: 20px;
+  color: black;
+}
+
+@media screen and (max-width: 991px){
+  .researchtext{
+    width: 85%;
+  }
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 30px;
+}
+
+.subcolumn {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+.subcolumn {
+  float: left;
+  width: 80%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 80%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 991px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* .column-left {
+  float: left;
+  width: 10%;
+}
+
+.column-middle {
+  float: right;
+  width: 20%;
+}
+
+.column-right {
+  float: right;
+  width: 60%;
+} */
+
+
+/*Slideshow*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  text-decoration: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  text-decoration: none;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+/* .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+} */
+
+/* Number text (1/3 etc) */
+/* .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+} */
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activ, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* Hide the images by default */
+.mySlides2 {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev2, .next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  text-decoration: none;
+}
+
+/* Position the "next button" to the right */
+.next2 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev2:hover, .next2:hover {
+  text-decoration: none;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot2 {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activ2, .dot2:hover {
+  background-color: #717171;
+}
+
+
+/* Hide the images by default */
+.mySlides3 {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev3, .next3 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  text-decoration: none;
+}
+
+/* Position the "next button" to the right */
+.next3 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev3:hover, .next3:hover {
+  text-decoration: none;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot3 {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activ3, .dot3:hover {
+  background-color: #717171;
+}
