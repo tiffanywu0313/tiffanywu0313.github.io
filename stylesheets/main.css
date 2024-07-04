@@ -10,16 +10,15 @@
 }
 
 html {
-  font-family: "proxmia nova", sans-serif;
-  font-weight: 100;
+  font-family: "Lexend", sans-serif;
+  /* font-weight: 100; */
 }
 
 header {
-  width:64%;
+  /* width: 95%; */
   position: relative;
-  max-width: 1100px;
-  margin: 10px auto;
-  padding: 10px;
+  margin: 32px;
+  padding: 32px;
   background: #ffffff;
   box-sizing: border-box;
   box-shadow: 0 0 0 rgba(0,0,0);
@@ -32,30 +31,32 @@ body {
 }
 
 h1 {
-  font-size: 36px;
-  font-weight: 400;
+  font-optical-sizing: auto;
+  font-size: 32px;
+  font-weight: 600;
   color: #17191A;
+  font-style: normal;
 }
 
 h2 {
-  font-size:35px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 600;
   color: #17191A;
 }
 
 h3 {
-  font-size:25px;
-  font-weight: 400;
+  font-size:16px;
+  font-weight: 500;
   color: #17191A;
 }
 
-h5 {
+h4 {
   font-size: 20px;
   margin-top: 10px;
   color: #5E5C5C;
 }
 
-h6 {
+h5 {
   font-size: 10px;
   margin-top: 10px;
   color: #17191A;
@@ -63,7 +64,7 @@ h6 {
 
 p {
   color: #5E5C5C;
-  font-weight: 100;
+  font-weight: 300;
   margin-top: 10px;
   font-size: 16px;
   line-height: 2;
@@ -215,7 +216,7 @@ nav ul li a.active, nav ul li a:hover{
 
 /*-------- Intro ----------*/
 .introcont {
-  width: 59%;
+  width: 50%;
   align-items: left;
   margin: 80px auto 100px auto;
 }
@@ -234,15 +235,19 @@ nav ul li a.active, nav ul li a:hover{
 
 /*-------- Tiles----------*/
   .projects {
-    width: 60%;
+    width: 50%;
     margin: auto;
   }
 
+  .spacer {
+    height: 30px;/* Adjust value as needed */
+  }
+
 	.tiles {
-		display: -moz-flex;
+		/* display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: flex; */
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
@@ -257,7 +262,8 @@ nav ul li a.active, nav ul li a:hover{
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(100% - 2.5em);
+
+			/* width: calc(100% - 2.5em); */
 			margin: 2.5em 0 0 2.5em;
 		}
     /* //change to 100 for only one project on row */
