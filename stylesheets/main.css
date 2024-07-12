@@ -17,8 +17,8 @@ html {
 header {
   /* width: 95%; */
   position: relative;
-  margin: 32px;
-  padding: 32px;
+  margin: 16px;
+  padding: 16px;
   background: #ffffff;
   box-sizing: border-box;
   box-shadow: 0 0 0 rgba(0,0,0);
@@ -218,7 +218,7 @@ nav ul li a.active, nav ul li a:hover{
 .introcont {
   width: 50%;
   align-items: left;
-  margin: 80px auto 100px auto;
+  margin: 72px auto 100px auto;
 }
 
 .intro {
