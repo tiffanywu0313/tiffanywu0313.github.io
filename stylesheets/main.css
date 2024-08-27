@@ -39,26 +39,26 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
   color: #17191A;
 }
 
 h3 {
-  font-size:16px;
+  font-size:20px;
   font-weight: 500;
   color: #17191A;
 }
 
 h4 {
-  font-size: 20px;
-  margin-top: 10px;
-  color: #5E5C5C;
+  font-size: 16px;
+    font-weight: 500;
+  color: #17191A;
 }
 
 h5 {
   font-size: 10px;
-  margin-top: 10px;
+  font-weight: 400;
   color: #17191A;
 }
 
@@ -241,6 +241,10 @@ nav ul li a.active, nav ul li a:hover{
 
   .spacer {
     height: 30px;/* Adjust value as needed */
+  }
+
+  .smallspacer {
+    height: 10px;/* Adjust value as needed */
   }
 
 	.tiles {

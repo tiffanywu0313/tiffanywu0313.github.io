@@ -27,6 +27,22 @@
    /* border-radius: 4px; */
 }
 
+@media screen and (max-width: 991px){
+  .photo img{
+    width: 85%;
+  }
+}
+
+.insert img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   /* padding: 10px; */
+   /* border-radius: 4px; */
+}
+
+
 .description{
   text-align: left;
   width:100%;
@@ -81,11 +97,11 @@
   width:50%;
   align-items: center;
   margin: 30px auto 0 auto;
-  line-height: 2;
+  /* line-height: 2; */
 }
 
 .researchtext p {
-  font-size: 20px;
+  font-size: 16px;
   color: black;
 }
 
