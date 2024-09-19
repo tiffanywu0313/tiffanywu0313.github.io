@@ -22,6 +22,21 @@
    display: block;
    margin-left: auto;
    margin-right: auto;
+   width: 63%;
+   /* padding: 10px; */
+   /* border-radius: 4px; */
+}
+
+@media screen and (max-width: 991px){
+  .photo img{
+    width: 85%;
+  }
+}
+
+.insert img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
    width: 100%;
    /* padding: 10px; */
    /* border-radius: 4px; */
